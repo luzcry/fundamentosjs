@@ -1,0 +1,40 @@
+Date : 2020-02-04 21:03:33
+Directory : c:\Users\andro\Desktop\platzi\fundamentosjs
+Total : 14 files,  213 codes, 24 comments, 40 blanks, all 277 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |          8 |        150 |         23 |         39 |        212 |
+| HTML       |          5 |         62 |          0 |          0 |         62 |
+| Properties |          1 |          1 |          1 |          1 |          3 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                            | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                               |         14 |        213 |         24 |         40 |        277 |
++-----------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                        | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\andro\Desktop\platzi\fundamentosjs\.gitattributes      | Properties |          1 |          1 |          1 |          3 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\alcanceFuciones.js  | JavaScript |          5 |          2 |          1 |          8 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\arrowFunctions.html | HTML       |         12 |          0 |          0 |         12 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\arrowFunctions.js   | JavaScript |         14 |          3 |          4 |         21 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\comparaciones.js    | JavaScript |          9 |          3 |          5 |         17 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\condicionales.html  | HTML       |         12 |          0 |          0 |         12 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\condicionales.js    | JavaScript |         47 |          2 |         10 |         59 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\for.html            | HTML       |         12 |          0 |          0 |         12 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\for.js              | JavaScript |         20 |          5 |          4 |         29 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\funciones.html      | HTML       |         14 |          0 |          0 |         14 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\funciones.js        | JavaScript |          8 |          2 |          6 |         16 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\objetos.js          | JavaScript |         24 |          5 |          4 |         33 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\while.html          | HTML       |         12 |          0 |          0 |         12 |
+| c:\Users\andro\Desktop\platzi\fundamentosjs\while.js            | JavaScript |         23 |          1 |          5 |         29 |
+| Total                                                           |            |        213 |         24 |         40 |        277 |
++-----------------------------------------------------------------+------------+------------+------------+------------+------------+

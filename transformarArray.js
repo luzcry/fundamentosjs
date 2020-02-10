@@ -28,14 +28,13 @@ var paula = {
     altura: 1.76
 }
 
-const pasarAlturaACms = persona => {
+const pasarAlturaACms = persona => ({
     // persona. altura = persona.altura * 100
     //hay que retornar un nuevo objeto con la altura modificada
-    return {
         ...persona,
         altura: persona.altura * 100
-    }
-}
+    })
+
 
 var personas = [luz, paula, alan, kichi, chumel]
 

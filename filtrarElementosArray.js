@@ -35,8 +35,12 @@ const T_ALTURA = 1.8;
 
 var personas = [luz, alan, kichi, chumel, paula];
 
-const esAlta = ({altura}) => altura > T_ALTURA;
-const esBaja = ({altura}) => altura <= T_ALTURA;
+const esAlta = ({
+    altura
+}) => altura > T_ALTURA;
+const esBaja = ({
+    altura
+}) => altura <= T_ALTURA;
 
 
 var personasAltas = personas.filter(esAlta);
@@ -44,13 +48,18 @@ var personasBajas = personas.filter(esBaja);
 console.log(personasAltas);
 console.log(personasBajas);
 
-//filter lleva como parametro una condicion 
+//filter lleva como parametro una condicion
+//la condicion tiene que ser una funcion 
 
-//map devuelve un nuevo array en el cual va a modificar cada uno de los elemntos del array original
+//map devuelve un nuevo array modificando el array original
+// persona.altura = persona.altura * 100
+const pasarAlturaaCms = persona => ({
 
-const pasarAlturaaCms = persona => {
-    // persona.altura = persona.altura * 100
-    persona.altura *= 100
-    return persona
-}
-var personasCms = personas.map(pasarAlturaAcms)
+    //nuevo objeto que no modifica el original
+    //...desglozar un nuevo objeto
+    ...persona,
+    altura: persona.altura * 100
+});
+personas[0] === personasCms[0];
+
+let personasCms = personas.map(pasarAlturaAcms)

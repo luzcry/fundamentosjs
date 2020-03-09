@@ -34,14 +34,15 @@ var paula = {
     altura: 1.76,
     cantidadDeLibros: 130
 }
-
-var personas = [luz, paula, alan, kichi, chumel]
-
+//reduce reduce un array a un valor unico
+let personas = [luz, paula, alan, kichi, chumel]
 //const reducer = (acum, persona) => {
 //    return acum + persona.cantidadDeLibros
 //}
-const reducer = (acum, { cantidadDeLibros }) =>
- acum + cantidadDeLibros
+const reducer = (acum, {
+        cantidadDeLibros
+    }) =>
+    acum + cantidadDeLibros
 //reduce recibe dos parametros, reducer que establecera arriba y un contador en 0
 var totalDeLibros = personas.reduce(reducer, 0)
 
